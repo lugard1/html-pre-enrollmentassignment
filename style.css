@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    padding:5px;
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: blueviolet;
+    position: sticky;
+    box-shadow: 100px;
+    margin-bottom: 20px;
+    height:30px;
+    color: #ffffff;
+}
+
+.fa-brands{
+    color:#ff0000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    justify-content:center;
+    padding: 5px;
+}
+
+#container{
+    padding:5px;
+}
+
+#container .content h3{
+    padding:5px;
+}
+
+#container .thumbnail{
+    justify-content: space-between;
+    padding:8px;
+    width: auto;
+}
+
+.content{
+    float: left;
+    width: 50%;
+    justify-content: space-between;
+}
+
+#container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content .header{
+    background-color: #4245f5;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvv4JTqanf3sTdR6PU3mCZg71_0djDl0yHjw&usqp=CAU');
+    justify-content: center;
+    text-align: center;
+    height:150px;
+}
+
+form{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    border: 1px solid #000;
+}
+
+.header h1{
+    padding-top: 40px;
+    color: #fff;
+}
+
+.header p{
+    color: #fff;
+}
+
+h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.pics{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+footer #copyright{
+    padding-top: 20px;
+    text-align: right;
+}
+
+footer #copyright span{
+    color: rgb(128, 0, 0);
+}
+
+.container{
+    width: 100%;
+}
+
+@media (min-width: 600px){
+    .container{
+        width: 50%;
+    }   
+}
