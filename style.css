@@ -64,9 +64,11 @@ p{
 .content .header{
     background-color: #4245f5;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvv4JTqanf3sTdR6PU3mCZg71_0djDl0yHjw&usqp=CAU');
-    justify-content: center;
+    justify-content:center;
     text-align: center;
     height:150px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 form{
